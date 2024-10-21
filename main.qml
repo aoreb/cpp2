@@ -85,7 +85,7 @@ Window {
                      anchors.right: parent.right
                      anchors.rightMargin: 20
                      validator: RegExpValidator{
-                         regExp: /-^?(100(\.0{1,5})?|[1-9][0-9]?(\.[0-9]{1,5})?|0(\.[0-9]{1,5})?)$/
+                         regExp: /^-?(100(\.0{1,5})?|[1-9][0-9]?(\.[0-9]{1,5})?|0(\.[0-9]{1,5})?)$/
                      }
                 }
                 Text {
